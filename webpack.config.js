@@ -46,7 +46,8 @@ module.exports = {
       template: path.resolve(__dirname, './public/index.html'),
       filename: 'index.html',
       inject: 'body',
-    })
+      favicon: './src/assets/favicon.ico',
+    }),
   ],
   devServer: {
     static: {
