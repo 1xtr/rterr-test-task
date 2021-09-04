@@ -1,0 +1,29 @@
+@media (min-width: 425px)
+  .logo
+    display: block
+
+@media (min-width: 769px)
+  .sidebar
+    display: block
+  .container
+    width: 100%
+    padding: 0 calc(50vw - 720px)
+  .header
+    &__right
+      &_text
+        display: block
+        margin-left: 1rem
+  .main
+    width: calc(100% - 1rem)
+    margin-left: 300px
+    padding: 0 2rem
+  .search
+    width: 100%
+    flex-direction: row
+    &__input
+      margin-right: 1.5rem
+      font-size: 1.25rem
+      line-height: 1.5rem
+    &__button
+      max-width: 217px
+      margin-top: 0
